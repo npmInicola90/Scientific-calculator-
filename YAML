@@ -5,13 +5,13 @@
     - name: Collect Workflow Telemetry
       uses: runforesight/foresight-workflow-kit-action@v1
       with:
-        api_key: <foresight_api_key>
+        api_key: <ce683456-a252-428e-a6d1-efb5b8e62c94>
 
     # Make sure you put test kit action after your test execution step 
     - name: Analyze Test and/or Coverage Results
       uses: thundra-io/foresight-test-kit-action@v1
       with:
-        api_key: <your_api_key_required>
+        api_key: <ce683456-a252-428e-a6d1-efb5b8e62c94>
         test_format: <test_format_optional>
         test_framework: <test_framework_optional>
         test_path: <test_results_path_optional>
