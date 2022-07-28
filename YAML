@@ -5,7 +5,7 @@
     - name: Collect Workflow Telemetry
       uses: runforesight/foresight-workflow-kit-action@v1
       with:
-        api_key: <ce683456-a252-428e-a6d1-efb5b8e62c94>
+        api_key: <foresight_api_key>
 
     # Make sure you put test kit action after your test execution step 
     - name: Analyze Test and/or Coverage Results
